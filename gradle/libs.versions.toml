@@ -1,0 +1,5 @@
+[versions]
+scalapy = "0.5.3"
+
+[libraries]
+scalapy = { module = "dev.scalapy:scalapy-core_2.13", version.ref = "scalapy" }
