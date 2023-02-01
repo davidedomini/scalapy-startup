@@ -25,8 +25,9 @@ tasks.register<JavaExec>("runTryNumpy"){
     group = "try scalapy"
     mainClass.set("it.unibo.tryscalapy.TryNumpy")
     classpath = sourceSets["main"].runtimeClasspath
-    /*args(
-        "-Djna.library.path=/Library/Frameworks/Python.framework/Versions/3.7/lib/",
-        "-Dscalapy.python.library=python3.7m"
-    )*/
+    jvmArgs(
+        //"-Djna.library.path=/Library/Frameworks/Python.framework/Versions/3.7/lib/",
+        "-Djna.library.path=/Users/davidedomini/opt/anaconda3/lib"
+        //"-Dscalapy.python.library=python3.11"
+    )
 }

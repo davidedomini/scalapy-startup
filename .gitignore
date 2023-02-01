@@ -1,5 +1,3 @@
-
-
 .DS_Store
 .idea/
 .bsp/
@@ -8,3 +6,4 @@ out/
 target/
 project/boot/
 project/plugins/project/
+.gradle/
